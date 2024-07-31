@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Living Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Eco-Friendly Living Guide</h1>
+        <button id="navToggle" class="nav-toggle">☰</button>
+        <nav id="slideNav" class="slide-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reduce.html">Reduce</a></li>
+                <li><a href="reuse.html">Reuse</a></li>
+                <li><a href="recycle.html">Recycle</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to Your Guide to Eco-Friendly Living!</h2>
+            <p>Discover how you can make a positive impact on the environment with simple, everyday actions. Explore our tips and resources to start living a greener life today.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Kunal 2024 Eco-Friendly Living Guide</p>
+    </footer>
+
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function() {
+            document.getElementById('slideNav').classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
